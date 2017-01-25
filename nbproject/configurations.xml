@@ -118,6 +118,10 @@
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>C:/programs/Box2D/include</pElem>
+          </incDir>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
@@ -125,6 +129,11 @@
         <asmTool>
           <developmentMode>5</developmentMode>
         </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>C:/programs/Box2D/lib/libliquidfun_static.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
       <item path="H:/Dropbox/practice/qt/Qt4ZetCode/6Box2DTestbed/CircularNode.hpp"
             ex="false"

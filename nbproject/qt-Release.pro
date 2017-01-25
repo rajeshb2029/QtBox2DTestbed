@@ -20,5 +20,11 @@ UI_DIR =
 QMAKE_CC = gcc
 QMAKE_CXX = g++
 DEFINES += 
-INCLUDEPATH += 
-LIBS += 
+INCLUDEPATH += /C/programs/Box2D/include 
+LIBS += C:/programs/Box2D/lib/libliquidfun_static.a  
+equals(QT_MAJOR_VERSION, 4) {
+QMAKE_CXXFLAGS += -std=c++11
+}
+equals(QT_MAJOR_VERSION, 5) {
+CONFIG += c++11
+}
